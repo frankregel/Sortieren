@@ -19,6 +19,7 @@
 		846BA19218A3C4E3008CE756 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846BA17A18A3C4E2008CE756 /* UIKit.framework */; };
 		846BA19A18A3C4E3008CE756 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846BA19818A3C4E3008CE756 /* InfoPlist.strings */; };
 		846BA19C18A3C4E3008CE756 /* SortierenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BA19B18A3C4E3008CE756 /* SortierenTests.m */; };
+		846BA1A718A3C526008CE756 /* DataManipulationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BA1A618A3C526008CE756 /* DataManipulationModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		846BA19718A3C4E3008CE756 /* SortierenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SortierenTests-Info.plist"; sourceTree = "<group>"; };
 		846BA19918A3C4E3008CE756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		846BA19B18A3C4E3008CE756 /* SortierenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortierenTests.m; sourceTree = "<group>"; };
+		846BA1A518A3C526008CE756 /* DataManipulationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManipulationModel.h; sourceTree = "<group>"; };
+		846BA1A618A3C526008CE756 /* DataManipulationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManipulationModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		846BA17C18A3C4E2008CE756 /* Sortieren */ = {
 			isa = PBXGroup;
 			children = (
+				846BA1A518A3C526008CE756 /* DataManipulationModel.h */,
+				846BA1A618A3C526008CE756 /* DataManipulationModel.m */,
 				846BA18518A3C4E2008CE756 /* AppDelegate.h */,
 				846BA18618A3C4E2008CE756 /* AppDelegate.m */,
 				846BA18818A3C4E2008CE756 /* Images.xcassets */,
@@ -241,6 +246,7 @@
 			files = (
 				846BA18718A3C4E2008CE756 /* AppDelegate.m in Sources */,
 				846BA18318A3C4E2008CE756 /* main.m in Sources */,
+				846BA1A718A3C526008CE756 /* DataManipulationModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +447,7 @@
 				846BA1A118A3C4E3008CE756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846BA1A218A3C4E3008CE756 /* Build configuration list for PBXNativeTarget "SortierenTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +456,7 @@
 				846BA1A418A3C4E3008CE756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
